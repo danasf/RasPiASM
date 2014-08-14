@@ -31,6 +31,7 @@ turnoff$:
  mov r3, #0
  b waitLoop$
 
+// the wait loop
 waitLoop$:
  mov r2,#0x3F0000 // set a wait time
  wait$:
